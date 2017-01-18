@@ -42,6 +42,67 @@ header {
 	float: left;
 }
 
+#content {
+	float: left;
+	width: 650px;
+	padding: 20px;
+	background: #FFF;
+	border: 1px solid #dddddd;
+}
+
+h1 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #4aaaa5;
+	border-bottom: 2px solid #dddddd;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #4aaaa5;
+	border-bottom: 2px solid #dddddd;
+	text-align: center;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 16px;
+	font-size: 100%;
+	line-height: 24px;
+	text-align: justify;
+}
+
+#menu-bar {
+	float: right;
+	width: 270px;
+	padding: 20px;
+	background: #FFF;
+	border: 1px solid #dddddd;
+	text-align: center;
+}
+
+footer {
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	padding: 40px;
+	background: #666666;
+	color: #BBB;
+	font-size: 14px;
+	text-align: center;
+	border-top: 8px solid #4aaaa5;
+}
+
+/* Navigation menu */
+
 nav {
 	float: right;
 	margin-top: 10px;
@@ -91,42 +152,6 @@ a[href*="gardner"] {
 	border: 0 none;
 	padding: 0;
 	background: inherit;
-}
-
-#content {
-	float: left;
-	width: 650px;
-	padding: 20px;
-	background: #FFF;
-	border: 1px solid #dddddd;
-}
-
-h1 {
-	font-family: 'Georgia', Times, 'Times New Roman', serif;
-	font-size: 24px;
-	font-weight: bold;
-	color: #4aaaa5;
-	border-bottom: 2px solid #dddddd;
-	padding-bottom: 20px;
-	margin-bottom: 20px;
-}
-
-h2 {
-	font-family: 'Georgia', Times, 'Times New Roman', serif;
-	font-size: 20px;
-	font-weight: bold;
-	color: #4aaaa5;
-	border-bottom: 2px solid #dddddd;
-	text-align: center;
-	padding-bottom: 20px;
-	margin-bottom: 20px;
-}
-
-p {
-	margin-bottom: 16px;
-	font-size: 100%;
-	line-height: 24px;
-	text-align: justify;
 }
 
 /* Project page */
@@ -222,27 +247,4 @@ button {
 	color: #fff;
 	font-size: 14px;
 	border: 0 none;
-}
-
-#menu-bar {
-	float: right;
-	width: 270px;
-	padding: 20px;
-	background: #FFF;
-	border: 1px solid #dddddd;
-	text-align: center;
-}
-
-footer {
-	clear: both;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	height: 100px;
-	padding: 40px;
-	background: #666666;
-	color: #BBB;
-	font-size: 14px;
-	text-align: center;
-	border-top: 5px solid #4aaaa5;
 }
