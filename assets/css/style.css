@@ -13,7 +13,6 @@ header {
 	background: #FFF;
 	border-bottom: 2px solid #ccc;
 	margin-bottom: 20px;
-	padding-top: 20px;
 	overflow: auto;
 }
 
@@ -37,7 +36,7 @@ header {
 	font-weight: bold;
 	color: #FFFFFF;
 	background: #4aaaa5;
-	padding: 20px;
+	padding: 30px;
 	display: inline-block;
 	float: left;
 }
@@ -105,7 +104,7 @@ footer {
 
 nav {
 	float: right;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 ul {
@@ -123,14 +122,14 @@ a:link {
 	font-size: 14px;
 	text-decoration: none;
 	color: #777777;
-	padding: 10px;
+	padding: 40px 20px;
 }
 
 a:visited {
 	font-size: 14px;
 	text-decoration: none;
 	color: #777777;
-	padding: 10px;
+	padding: 40px 20px;
 }
 
 a:hover {
@@ -138,14 +137,14 @@ a:hover {
 	text-decoration: none;
 	background: #666666;
 	color: #FFF;
-	padding: 10px;
+	padding: 40px 20px;
 }
 
 a:active {
 	font-size: 14px;
 	text-decoration: none;
 	color: #777777;
-	padding: 10px;
+	padding: 40px 20px;
 }
 
 a[href*="gardner"] {
