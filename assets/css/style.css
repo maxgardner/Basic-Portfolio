@@ -118,21 +118,21 @@ li {
 	display: inline;
 }
 
-a:link {
+nav a:link {
 	font-size: 14px;
 	text-decoration: none;
 	color: #777777;
 	padding: 40px 20px;
 }
 
-a:visited {
+nav a:visited {
 	font-size: 14px;
 	text-decoration: none;
 	color: #777777;
 	padding: 40px 20px;
 }
 
-a:hover {
+nav a:hover {
 	font-size: 14px;
 	text-decoration: none;
 	background: #666666;
@@ -140,18 +140,11 @@ a:hover {
 	padding: 40px 20px;
 }
 
-a:active {
+nav a:active {
 	font-size: 14px;
 	text-decoration: none;
 	color: #777777;
 	padding: 40px 20px;
-}
-
-a[href*="gardner"] {
-	text-decoration: none;
-	border: 0 none;
-	padding: 0;
-	background: inherit;
 }
 
 /* Project page */
